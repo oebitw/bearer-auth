@@ -2,11 +2,11 @@
 
 
 ## Author: Omar Ewies
-* [Tests Report]()
+* [Tests Report](https://github.com/oebitw/bearer-auth/actions)
 
-* [Heroku Deployment]()
+* [Heroku Deployment](https://oebitw-bearer-auth.herokuapp.com/)
 
-* [Pull Request]()
+* [Pull Request](https://github.com/oebitw/bearer-auth/pull/1)
 
 ## Setup
 
@@ -28,7 +28,7 @@
 
 ### `/signup`: POST Method
 
-[]()
+[https://oebitw-bearer-auth.herokuapp.com/signup](https://oebitw-bearer-auth.herokuapp.com/signup)
 
 * You can Sign-up by sending post request using postman.
 
@@ -53,7 +53,7 @@ Example of the data when you sign up :
 
 ### `/signin`:  POST Method
 
-[]()
+[https://oebitw-bearer-auth.herokuapp.com/sigin](https://oebitw-bearer-auth.herokuapp.com/signin)
 
 
 * You can signin by sending post request using postman.
@@ -77,6 +77,8 @@ Example of the data when you sign in :
 
 ### `/users`:  GET Method
 
+[https://oebitw-bearer-auth.herokuapp.com/users](https://oebitw-bearer-auth.herokuapp.com/users)
+
 * You can access the /users route and get all the usernames available in the DB by sending a get request with bearer auth and pass the token after you signin.
 
 Example of the received data :
@@ -92,6 +94,8 @@ Example of the received data :
 ```
 
 ### `/secret`:  GET Method
+
+[https://oebitw-bearer-auth.herokuapp.com/secret](https://oebitw-bearer-auth.herokuapp.com/secret)
 
 * You can access the /secret route by sending a get request with bearer auth and pass the token after you signin.
 

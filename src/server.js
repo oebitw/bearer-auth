@@ -59,15 +59,6 @@ function homeHandler(req,res){
 ////// Exports      /////
 ////////////////////////
 
-// module.exports = {
-//   app: app,
-//   start: (PORT) => {
-//     app.listen(PORT, () => {
-//       console.log(`Listening on PORT:${PORT}/`);
-//     });
-//   },
-// };
-
 module.exports = {
   server: app,
   startup: (port) => {
